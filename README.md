@@ -21,10 +21,7 @@ I took a liberty to write an easy to use class `AzureIoTHubMQTTClient`, all you 
 
 ## Get started
 First thing first, you should have already set up an Azure IoT Hub and add a device. To create your Microsoft Azure IoT Hub and add a device, follow the instructions outlined in the [Setup IoT Hub Microsoft Azure Iot SDK page](https://github.com/Azure/azure-iot-device-ecosystem/blob/master/setup_iothub.md).
-Then, download this library and add to your Arduino IDE like usual. Along with that, you also need to install following dependency libraries, either manually or via Library Manager:
-
-* [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
-* [Time](https://github.com/PaulStoffregen/Time)
+Then, download this library and add to your Arduino IDE like usual.
 
 To get started, just take a look the example `TempToIoTHub.ino` sketch. Change the followings:
 
@@ -45,5 +42,4 @@ Enjoy!
 ## Credits
 
 * [PubSubClient](https://github.com/Imroy/pubsubclient)
-* [NTPClient](https://github.com/gmag11/NtpClient)
 * Creating Azure SAS Token. Adapted from [this code](https://github.com/gloveboxes/Arduino-ESP8266-Secure-Azure-IoT-Hub-Client/blob/master/AzureClient/Publish.ino)

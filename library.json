@@ -3,11 +3,17 @@
   "keywords": "iot, azure, azure iot, azure iot hub, cloud, esp8266, ESPectro, makestro, arduino",
   "description": "Azure IoT Hub client library for ESP8266 that specifically uses MQTT protocol. Tested on ESPectro devboard by DycodeX, should be OK for all ESP8266-based boards. See readme for more details.",
   "authors":
-  {
-    "name": "Andri Yadi",
-    "url": "http://www.makestro.com"
-  },
-  "version": "0.2.3",
+  [
+      {
+        "name": "Andri Yadi",
+        "url": "http://www.makestro.com"
+      },
+      {
+        "name": "Andrei Markeev",
+        "url": "https://markeev.com"
+      }
+  ],
+  "version": "0.2.4",
   "repository":
   {
     "type": "git",
@@ -15,20 +21,5 @@
   },
   "frameworks": "arduino",
   "platforms": "espressif8266",
-  "dependencies": [
-    {
-      "name": "ArduinoJson",
-      "authors": "Benoit Blanchon",
-      "frameworks": "arduino",
-      "platforms": "espressif8266"
-    },
-    {
-      "name": "Time",
-      "authors": [
-        "Paul Stoffregen",
-        "Michael Margolis"
-      ],
-      "frameworks": "arduino"
-    }
-  ]
+  "dependencies": [ ]
 }
